@@ -1,0 +1,118 @@
+:root,
+:root[data-palette="kult"] {
+  --bg: #F7F3EE;
+  --bg-2: #FFFFFF;
+  --bg-3: #EFE8E0;
+  --border: #E2D9CE;
+  --text: #2A2230;
+  --muted: #6B6170;
+  --accent: #6B3F8C;
+  --accent-2: #A07A45;
+  --on-accent: #FFFFFF;
+  --ph-a: #E7DCEB;
+  --ph-b: #F1E6D6;
+}
+
+:root[data-theme="dark"],
+:root[data-palette="kult"][data-theme="dark"] {
+  --bg: #17131A;
+  --bg-2: #1F1A23;
+  --bg-3: #29222E;
+  --border: #3A3140;
+  --text: #EDE6EF;
+  --muted: #A99EAF;
+  --accent: #B892DA;
+  --accent-2: #D6B37E;
+  --on-accent: #17131A;
+  --ph-a: #2E2536;
+  --ph-b: #2F2820;
+}
+
+:root[data-palette="iris"] {
+  --bg: #F4F6FA;
+  --bg-2: #FFFFFF;
+  --bg-3: #EEF1F6;
+  --border: #DDE2EA;
+  --text: #1C2230;
+  --muted: #5B6472;
+  --accent: #6B46E5;
+  --accent-2: #0891B2;
+  --on-accent: #FFFFFF;
+  --ph-a: #E3DCFB;
+  --ph-b: #D6F1F7;
+}
+
+:root[data-palette="iris"][data-theme="dark"] {
+  --bg: #14161B;
+  --bg-2: #1B1E26;
+  --bg-3: #232733;
+  --border: #2A2F3A;
+  --text: #E2E8F0;
+  --muted: #94A3B8;
+  --accent: #7C5CFF;
+  --accent-2: #22D3EE;
+  --on-accent: #FFFFFF;
+  --ph-a: #26223F;
+  --ph-b: #17323A;
+}
+
+:root[data-palette="olive"] {
+  --bg: #F4F2EC;
+  --bg-2: #FFFFFF;
+  --bg-3: #EAE7DE;
+  --border: #DCD7C9;
+  --text: #23271F;
+  --muted: #62675B;
+  --accent: #4C6A47;
+  --accent-2: #A8774A;
+  --on-accent: #FFFFFF;
+  --ph-a: #DCE5D6;
+  --ph-b: #EFE2D2;
+}
+
+:root[data-palette="olive"][data-theme="dark"] {
+  --bg: #141713;
+  --bg-2: #1C201A;
+  --bg-3: #252A22;
+  --border: #343B30;
+  --text: #E7EBE2;
+  --muted: #A1A999;
+  --accent: #9CC291;
+  --accent-2: #D9A877;
+  --on-accent: #141713;
+  --ph-a: #26301F;
+  --ph-b: #33291F;
+}
+
+:root {
+  --success: #22C55E;
+  --warning: #F59E0B;
+  --danger: #EF4444;
+
+  --font-serif: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+  --font-sans: "Manrope", "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+
+  --radius: 10px;
+  --radius-card: 14px;
+  --radius-pill: 999px;
+
+  --s-1: 0.5rem;
+  --s-2: 0.75rem;
+  --s-3: 1rem;
+  --s-4: 1.5rem;
+  --s-5: 2rem;
+  --s-6: 3rem;
+  --s-7: clamp(3.5rem, 8vw, 6.5rem);
+
+  --container: 76rem;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+
+  --shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent), 0 8px 24px color-mix(in srgb, var(--text) 7%, transparent);
+  --shadow-lg: 0 2px 6px color-mix(in srgb, var(--text) 6%, transparent), 0 24px 60px color-mix(in srgb, var(--text) 12%, transparent);
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}

@@ -1,0 +1,10 @@
+# --- claude-artifacts: begin ---
+CLAUDE.md
+.claude/
+memory/
+scratchpad/
+# --- claude-artifacts: end ---
+
+.env
+.DS_Store
+Thumbs.db
